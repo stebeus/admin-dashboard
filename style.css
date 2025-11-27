@@ -42,6 +42,18 @@ main {
   gap: 1rem;
 }
 
+.primary {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.secondary {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
+}
+
 .sidebar {
   grid-area: sidebar;
 }
