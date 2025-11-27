@@ -12,6 +12,11 @@
 }
 
 body {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar main";
   min-height: 100dvh;
   font-family: system-ui, sans-serif;
 }
@@ -20,4 +25,16 @@ img,
 svg {
   display: block;
   max-width: 100%;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+.sidebar {
+  grid-area: sidebar;
 }
