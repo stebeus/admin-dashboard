@@ -74,6 +74,13 @@ a {
   text-decoration: none;
 }
 
+button,
+input {
+  border: none;
+  background: none;
+  color: var(--color-txt);
+}
+
 menu {
   display: flex;
   gap: 1rem;
