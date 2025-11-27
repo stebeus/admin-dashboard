@@ -159,12 +159,12 @@ main {
   grid-area: sidebar;
   padding: 1.25rem 1.75rem;
   font-size: 1.125rem;
-}
 
-.sidebar nav > * {
-  margin-bottom: 2rem;
-}
+  & nav > * {
+    margin-bottom: 2rem;
+  }
 
-.sidebar ul li {
-  line-height: 2;
+  & ul li {
+    line-height: 2;
+  }
 }
