@@ -5,184 +5,206 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <div>
-        <div>
-          <input type="search" />
+      <div class="header-primary">
+        <div class="search-bar">
+          <input type="search" class="search-bar__input" />
         </div>
         <menu>
           <li><button type="button">Notifications</button></li>
           <li><button type="button">Morgan Oakley</button></li>
         </menu>
       </div>
-      <div>
-        <div>
+      <div class="header-secondary">
+        <div class="greetings">
           <p>Hi there,</p>
-          <p>Morgan Oakley (@morgan)</p>
+          <p class="greetings__user">Morgan Oakley (@morgan)</p>
         </div>
         <menu>
-          <li><button type="button">New</button></li>
-          <li><button type="button">Upload</button></li>
-          <li><button type="button">Share</button></li>
+          <li>
+            <button type="button" class="header-secondary__btn">New</button>
+          </li>
+          <li>
+            <button type="button" class="header-secondary__btn">Upload</button>
+          </li>
+          <li>
+            <button type="button" class="header-secondary__btn">Share</button>
+          </li>
         </menu>
       </div>
     </header>
     <main>
       <section>
         <h2>Your Projects</h2>
-        <article>
-          <h3>Super Cool Project</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
-            atque ex omnis modi laboriosam. Perferendis numquam similique eius,
-            neque beatae quidem voluptatum veritatis animi voluptatem autem
-            corrupti alias nesciunt recusandae.
-          </p>
-          <menu>
-            <li><button type="button">Add to favorites</button></li>
-            <li><button type="button">Follow project</button></li>
-            <li><button type="button">Share</button></li>
-          </menu>
-        </article>
-        <article>
-          <h3>Less Cool Project</h3>
-          <p>
-            Ea molestiae atque fuga temporibus aliquid quisquam magni. Suscipit
-            nesciunt, in officiis tempora provident atque explicabo possimus
-            sunt sapiente? Vel et expedita architecto temporibus vero ab libero
-            possimus placeat nesciunt!
-          </p>
-          <menu>
-            <li><button type="button">Add to favorites</button></li>
-            <li><button type="button">Follow project</button></li>
-            <li><button type="button">Share</button></li>
-          </menu>
-        </article>
-        <article>
-          <h3>Impossible App</h3>
-          <p>
-            Rem, totam nesciunt repellat saepe amet ullam placeat facere eius
-            eum vitae atque, nisi provident odio officiis possimus ipsam iusto
-            tempora maiores. Soluta dolore molestiae vel voluptatum quia ut in.
-          </p>
-          <menu>
-            <li><button type="button">Add to favorites</button></li>
-            <li><button type="button">Follow project</button></li>
-            <li><button type="button">Share</button></li>
-          </menu>
-        </article>
-        <article>
-          <h3>Easy Peasy App</h3>
-          <p>
-            Repellat est neque esse doloribus, alias accusantium aut quos nihil
-            suscipit qui amet hic omnis error ipsum dolores maiores laborum
-            excepturi dolorem laudantium officiis ullam asperiores tempora ut!
-            Cumque, blanditiis?
-          </p>
-          <menu>
-            <li><button type="button">Add to favorites</button></li>
-            <li><button type="button">Follow project</button></li>
-            <li><button type="button">Share</button></li>
-          </menu>
-        </article>
-        <article>
-          <h3>Ad Blocker</h3>
-          <p>
-            Ipsam doloremque maiores ex impedit deserunt! Mollitia, excepturi
-            ab. Exercitationem cumque perferendis consequuntur? Beatae impedit
-            et suscipit amet iusto tempore, ad consectetur quas error fugit,
-            obcaecati cumque dolor. Repellat, quidem!
-          </p>
-          <menu>
-            <li><button type="button">Add to favorites</button></li>
-            <li><button type="button">Follow project</button></li>
-            <li><button type="button">Share</button></li>
-          </menu>
-        </article>
-        <article>
-          <h3>Money Maker</h3>
-          <p>
-            Delectus, sunt! Aliquid, at totam adipisci dignissimos voluptate
-            error neque similique officiis eum enim sapiente iusto dolorum qui
-            vel dolore corrupti quos. Voluptatem doloremque, expedita alias iure
-            rerum consequuntur. Voluptatem!
-          </p>
-          <menu>
-            <li><button type="button">Add to favorites</button></li>
-            <li><button type="button">Follow project</button></li>
-            <li><button type="button">Share</button></li>
-          </menu>
-        </article>
+        <div class="primary">
+          <article class="card">
+            <h3>Super Cool Project</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
+              atque ex omnis modi laboriosam. Perferendis numquam similique
+              eius, neque beatae quidem voluptatum veritatis animi voluptatem
+              autem corrupti alias nesciunt recusandae.
+            </p>
+            <menu>
+              <li><button type="button">Add to favorites</button></li>
+              <li><button type="button">Follow project</button></li>
+              <li><button type="button">Share</button></li>
+            </menu>
+          </article>
+          <article class="card">
+            <h3>Less Cool Project</h3>
+            <p>
+              Ea molestiae atque fuga temporibus aliquid quisquam magni.
+              Suscipit nesciunt, in officiis tempora provident atque explicabo
+              possimus sunt sapiente? Vel et expedita architecto temporibus vero
+              ab libero possimus placeat nesciunt!
+            </p>
+            <menu>
+              <li><button type="button">Add to favorites</button></li>
+              <li><button type="button">Follow project</button></li>
+              <li><button type="button">Share</button></li>
+            </menu>
+          </article>
+          <article class="card">
+            <h3>Impossible App</h3>
+            <p>
+              Rem, totam nesciunt repellat saepe amet ullam placeat facere eius
+              eum vitae atque, nisi provident odio officiis possimus ipsam iusto
+              tempora maiores. Soluta dolore molestiae vel voluptatum quia ut
+              in.
+            </p>
+            <menu>
+              <li><button type="button">Add to favorites</button></li>
+              <li><button type="button">Follow project</button></li>
+              <li><button type="button">Share</button></li>
+            </menu>
+          </article>
+          <article class="card">
+            <h3>Easy Peasy App</h3>
+            <p>
+              Repellat est neque esse doloribus, alias accusantium aut quos
+              nihil suscipit qui amet hic omnis error ipsum dolores maiores
+              laborum excepturi dolorem laudantium officiis ullam asperiores
+              tempora ut! Cumque, blanditiis?
+            </p>
+            <menu>
+              <li><button type="button">Add to favorites</button></li>
+              <li><button type="button">Follow project</button></li>
+              <li><button type="button">Share</button></li>
+            </menu>
+          </article>
+          <article class="card">
+            <h3>Ad Blocker</h3>
+            <p>
+              Ipsam doloremque maiores ex impedit deserunt! Mollitia, excepturi
+              ab. Exercitationem cumque perferendis consequuntur? Beatae impedit
+              et suscipit amet iusto tempore, ad consectetur quas error fugit,
+              obcaecati cumque dolor. Repellat, quidem!
+            </p>
+            <menu>
+              <li><button type="button">Add to favorites</button></li>
+              <li><button type="button">Follow project</button></li>
+              <li><button type="button">Share</button></li>
+            </menu>
+          </article>
+          <article class="card">
+            <h3>Money Maker</h3>
+            <p>
+              Delectus, sunt! Aliquid, at totam adipisci dignissimos voluptate
+              error neque similique officiis eum enim sapiente iusto dolorum qui
+              vel dolore corrupti quos. Voluptatem doloremque, expedita alias
+              iure rerum consequuntur. Voluptatem!
+            </p>
+            <menu>
+              <li><button type="button">Add to favorites</button></li>
+              <li><button type="button">Follow project</button></li>
+              <li><button type="button">Share</button></li>
+            </menu>
+          </article>
+        </div>
       </section>
-      <section>
-        <h2>Announcements</h2>
-        <ul>
-          <li>
-            <article>
-              <h3>Site Maintenance</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Doloribus magni voluptas natus ipsa deserunt sapiente quasi
-                sequi eum a explicabo molestiae odit, eius qui expedita.
-              </p>
-            </article>
-          </li>
-          <li>
-            <article>
-              <h3>Community Share Day</h3>
-              <p>
-                Laudantium aliquid id tenetur minima assumenda vero, enim modi
-                quo perspiciatis molestiae consectetur qui numquam quas quaerat
-                nemo distinctio explicabo nisi sunt excepturi consequatur quos?
-              </p>
-            </article>
-          </li>
-          <li>
-            <article>
-              <h3>Updated Privacy Policy</h3>
-              <p>
-                Natus obcaecati incidunt facilis saepe, recusandae nesciunt
-                pariatur ipsam. Aliquam cum sint ullam voluptates asperiores eum
-                debitis qui alias ad quam. Architecto illo modi molestias.
-              </p>
-            </article>
-          </li>
-        </ul>
-        <h2>Trending</h2>
-        <ul>
-          <li>
-            <a href="#">
-              <h4>tegan</h4>
-              <p>World Peace Builder</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <h4>@morgan</h4>
-              <p>Super Cool Project</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <h4>@kendali</h4>
-              <p>Life Changing App</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <h4>@alex</h4>
-              <p>No Traffic Maker</p>
-            </a>
-          </li>
-        </ul>
-      </section>
+      <div class="secondary">
+        <section>
+          <h2>Announcements</h2>
+          <ul class="card">
+            <li>
+              <article>
+                <h3>Site Maintenance</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloribus magni voluptas natus ipsa deserunt sapiente quasi
+                  sequi eum a explicabo molestiae odit, eius qui expedita.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h3>Community Share Day</h3>
+                <p>
+                  Laudantium aliquid id tenetur minima assumenda vero, enim modi
+                  quo perspiciatis molestiae consectetur qui numquam quas
+                  quaerat nemo distinctio explicabo nisi sunt excepturi
+                  consequatur quos?
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h3>Updated Privacy Policy</h3>
+                <p>
+                  Natus obcaecati incidunt facilis saepe, recusandae nesciunt
+                  pariatur ipsam. Aliquam cum sint ullam voluptates asperiores
+                  eum debitis qui alias ad quam. Architecto illo modi molestias.
+                </p>
+              </article>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>Trending</h2>
+          <ul class="card">
+            <li>
+              <a href="#">
+                <h4>tegan</h4>
+                <p>World Peace Builder</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <h4>@morgan</h4>
+                <p>Super Cool Project</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <h4>@kendali</h4>
+                <p>Life Changing App</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <h4>@alex</h4>
+                <p>No Traffic Maker</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
-    <aside>
+    <aside class="sidebar">
       <nav>
-        <ul>
+        <div class="logo">
           <h1>Dashboard</h1>
+        </div>
+        <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Profile</a></li>
           <li><a href="#">Messages</a></li>
