@@ -64,6 +64,10 @@ li {
   list-style: none;
 }
 
+a {
+  color: inherit;
+}
+
 menu {
   display: flex;
   gap: 1rem;
