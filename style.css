@@ -21,6 +21,10 @@ body {
   font-family: system-ui, sans-serif;
 }
 
+li {
+  list-style: none;
+}
+
 img,
 svg {
   display: block;
