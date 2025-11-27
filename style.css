@@ -28,6 +28,7 @@ body {
     "sidebar header"
     "sidebar main";
   min-height: 100dvh;
+  color: var(--color-txt-muted);
   font-family: Inter, system-ui, sans-serif;
 }
 
@@ -35,6 +36,27 @@ img,
 svg {
   display: block;
   max-width: 100%;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-txt);
+}
+
+h3,
+h2 {
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 1.125rem;
 }
 
 li {
