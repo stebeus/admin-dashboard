@@ -1,3 +1,13 @@
+:root {
+  --color-bg: hsl(from var(--color-fg) h s calc(l - 5));
+  --color-fg: hsl(0 0 100);
+  --color-txt: hsl(0 0 0);
+  --color-txt-muted: hsl(from var(--color-txt) h s calc(l + 25));
+  --color-border: hsl(from var(--color-txt) h s l / 15%);
+  --color-primary: hsl(201 79 46);
+  --color-secondary: hsl(42 87 55);
+}
+
 *,
 *::before,
 *::after {
