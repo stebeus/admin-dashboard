@@ -28,6 +28,7 @@ body {
     "sidebar header"
     "sidebar main";
   min-height: 100dvh;
+  background-color: var(--color-bg);
   color: var(--color-txt-muted);
   font-family: Inter, system-ui, sans-serif;
 }
@@ -68,8 +69,15 @@ menu {
   gap: 1rem;
 }
 
+.header-secondary button,
+.sidebar {
+  background-color: var(--color-primary);
+  color: var(--color-fg);
+}
+
 header {
   grid-area: header;
+  background-color: var(--color-fg);
 }
 
 main {
@@ -89,6 +97,10 @@ main {
   display: grid;
   grid-template-rows: auto 1fr;
   gap: 1rem;
+}
+
+.card {
+  background-color: var(--color-fg);
 }
 
 .sidebar {
