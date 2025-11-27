@@ -92,6 +92,13 @@ header {
   background-color: var(--color-fg);
 }
 
+.header-primary,
+.header-secondary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 main {
   grid-area: main;
   display: grid;
